@@ -11,14 +11,14 @@ class Solution:
 			res.add(tmp)
 		return len(list(res))
 
-# prettier answer
-# MORSE = [".-","-...","-.-.","-..",".","..-.","--.",
+# prettier answer MORSE =
+# [".-","-...","-.-.","-..",".","..-.","--.",
 #                  "....","..",".---","-.-",".-..","--","-.",
 #                  "---",".--.","--.-",".-.","...","-","..-",
 #                  "...-",".--","-..-","-.--","--.."]
 
-#         seen = {"".join(MORSE[ord(c) - ord('a')] for c in word)
-#                 for word in words}
+#         seen = {"".join(MORSE[ord(c) - ord('a')] for c in
+#                 word) for word in words}
 
 #         return len(seen)
 
